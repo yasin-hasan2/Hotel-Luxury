@@ -1,0 +1,113 @@
+[
+  {
+    
+    "room_image": "https://i.ibb.co/CsQH904/wallpaperflare-com-wallpaper-3.jpg",
+    "room_name": "Luxury Suite",
+    "room_category": "Suite",
+    "bed_name": "1 King Bed",
+    "room_price": 350,
+    "room_offer": "Save 10%",
+    "details_description": "Experience opulent luxury in this spacious suite. Enjoy a king-sized bed, a private living area, and a stunning view of the city skyline. Perfect for a romantic getaway.",
+    "rating": 5.0,
+    "max_guest": 2,
+    "room_space": "75 sqm",
+    "room_view": "City Skyline",
+    "hotel_rules": [
+      "No smoking in the room",
+      "No pets allowed",
+      "Check-in after 3:00 PM"
+    ]
+  },
+  {
+    
+    "room_image": "https://i.ibb.co/kJ4ZhVy/wallpaperflare-com-wallpaper-5.jpg",
+    "room_name": "Deluxe Room",
+    "room_category": "Standard",
+    "bed_name": "1 Double Bed",
+    "room_price": 200,
+    "details_description": "A comfortable room with a cozy double bed and a relaxing ambiance. Ideal for business travelers or couples looking for a pleasant stay.",
+    "rating": 4.5,
+    "max_guest": 2,
+    "room_space": "40 sqm",
+    "room_view": "Garden View",
+    "hotel_rules": [
+      "No smoking in the room",
+      "Pets allowed with additional fee",
+      "Check-in after 2:00 PM"
+    ]
+  },
+  {
+    
+    "room_image": "https://i.ibb.co/y5dw7JY/wallpaperflare-com-wallpaper-7.jpg",
+    "room_name": "Family Suite",
+    "room_category": "Suite",
+    "bed_name": "2 Double Beds",
+    "room_price": 400,
+    "room_offer": "Stay 3 nights, pay for 2",
+    "details_description": "Spacious family suite with two comfortable double beds, a separate living area, and stunning garden views. Perfect for a family vacation.",
+    "rating": 4.8,
+    "max_guest": 4,
+    "room_space": "90 sqm",
+    "room_view": "Garden View",
+    "hotel_rules": [
+      "No smoking in the room",
+      "Pets allowed with additional fee",
+      "Check-in after 3:00 PM"
+    ]
+  },
+  {
+    
+    "room_image": "https://i.ibb.co/qCD6wFS/wallpaperflare-com-wallpaper-8.jpg",
+    "room_name": "Luxury King Suite",
+    "room_category": "Suite",
+    "bed_name": "1 King Bed",
+    "room_price": 450,
+    "details_description": "Indulge in luxury with a king-sized bed, a private balcony, and breathtaking ocean views. The perfect choice for a romantic escape.",
+    "rating": 4.9,
+    "max_guest": 2,
+    "room_space": "70 sqm",
+    "room_view": "Ocean View",
+    "hotel_rules": [
+      "No smoking in the room",
+      "No pets allowed",
+      "Check-in after 4:00 PM"
+    ]
+  },
+  {
+    
+    "room_image": "https://i.ibb.co/tMv9G4w/wallpaperflare-com-wallpaper-9.jpg",
+    "room_name": "Executive Suite",
+    "room_category": "Suite",
+    "bed_name": "2 Double King Beds",
+    "room_price": 500,
+    "room_offer": "Complimentary airport transfer",
+    "details_description": "Experience the pinnacle of luxury with two king-sized beds, a private butler, and panoramic city views. Ideal for VIP guests.",
+    "rating": 5.0,
+    "max_guest": 4,
+    "room_space": "110 sqm",
+    "room_view": "Cityscape",
+    "hotel_rules": [
+      "No smoking in the room",
+      "No pets allowed",
+      "Check-in after 4:00 PM"
+    ]
+  },
+  {
+    
+    "room_image": "https://i.ibb.co/fFfTnck/wallpaperflare-com-wallpaper-4.jpg",
+    "room_name": "Presidential Suite",
+    "room_category": "Suite",
+    "bed_name": "2 Double Beds",
+    "room_price": 750,
+    "details_description": "The ultimate in luxury with two double beds, a private spa, and a dedicated staff. Enjoy exclusive access to the hotel's finest amenities.",
+    "rating": 5.0,
+    "max_guest": 4,
+    "room_space": "180 sqm",
+    "room_view": "Panoramic City & Ocean",
+    "hotel_rules": [
+      "No smoking in the room",
+      "No pets allowed",
+      "Check-in after 3:00 PM"
+    ]
+  }
+]
