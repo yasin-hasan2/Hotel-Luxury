@@ -41,7 +41,7 @@ const RoomCard = ({ room }) => {
           <div className="card-actions ">
             {" "}
             {/*  */}
-            <Link to={`/roomDetails/${_id}`}>
+            <Link to={`/roomDetail/${_id}`}>
               <button className="btn   text-white ">
                 BOOK now{" "}
                 <IoIosArrowForward className="text-xl"></IoIosArrowForward>{" "}

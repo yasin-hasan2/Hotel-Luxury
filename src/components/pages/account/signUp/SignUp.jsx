@@ -10,14 +10,25 @@ const SignUp = () => {
   const handleLogIn = (e) => {
     e.preventDefault();
     const form = e.target;
+    const name = form.name.value;
     const email = form.email.value;
     const password = form.password.value;
-    console.log(form, email, password);
+    console.log(name, email, password);
 
     createUser(email, password)
       .then((result) => {
         const user = result.user;
         console.log(user);
+        const createdAt = result.user?.metadata?.creationTime;
+
+        const users = { email, createdAt: createdAt };
+        fetch("http://localhost:5000/users", {
+          method: "POST",
+          headers: {
+            "content-type": "application/json",
+          },
+          body: JSON.stringify(users),
+        });
       })
       .catch((error) => {
         console.error(error);

@@ -17,10 +17,17 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li>
+        <Link to="/about">About</Link>
+      </li>
+
+      <li>
         <Link to="/rooms">Rooms</Link>
       </li>
       <li>
         <Link to="/">Booking </Link>
+      </li>
+      <li>
+        <Link to="/contact"> Contact </Link>
       </li>
     </>
   );

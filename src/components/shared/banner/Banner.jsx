@@ -12,7 +12,7 @@ const Banner = () => {
             <img src={banner1} className=" max-w-xl rounded-lg shadow-2xl" />
             <img
               src={banner2}
-              className="absolute left-1/4 -bottom-1/4 max-w-xs rounded-lg shadow-2xl"
+              className="absolute border-8 border-yellow-400  left-1/4 -bottom-1/4 max-w-xs rounded-lg shadow-2xl"
               alt=""
             />
           </div>
