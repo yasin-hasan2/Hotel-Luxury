@@ -22,13 +22,16 @@ const SignUp = () => {
         const createdAt = result.user?.metadata?.creationTime;
 
         const users = { email, createdAt: createdAt };
-        fetch("http://localhost:5000/users", {
-          method: "POST",
-          headers: {
-            "content-type": "application/json",
-          },
-          body: JSON.stringify(users),
-        });
+        fetch(
+          "https://luxury-hotel-server-52j29ybn6-yasins-projects-9cac5fb7.vercel.app/users",
+          {
+            method: "POST",
+            headers: {
+              "content-type": "application/json",
+            },
+            body: JSON.stringify(users),
+          }
+        );
       })
       .catch((error) => {
         console.error(error);
