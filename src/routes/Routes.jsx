@@ -38,10 +38,7 @@ const router = createBrowserRouter([
             <Rooms></Rooms>{" "}
           </PrivateRoute>
         ),
-        loader: () =>
-          fetch(
-            "https://luxury-hotel-server-52j29ybn6-yasins-projects-9cac5fb7.vercel.app/services"
-          ),
+        loader: () => fetch("https://luxury-hotel-server.vercel.app/services"),
       },
       {
         path: "/logIn",
@@ -59,9 +56,7 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: ({ params }) =>
-          fetch(
-            `https://luxury-hotel-server-52j29ybn6-yasins-projects-9cac5fb7.vercel.app/services/${params.id}`
-          ),
+          fetch(`https://luxury-hotel-server.vercel.app/services/${params.id}`),
       },
     ],
   },

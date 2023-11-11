@@ -29,6 +29,7 @@ import { AuthContext } from "../../provider/AuthProvider";
 
 const RoomDetail = () => {
   const roomDetail = useLoaderData();
+  console.log(roomDetail);
   const [star, setStar] = useState(5);
   const { user } = useContext(AuthContext);
 
