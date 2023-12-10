@@ -8,5 +8,5 @@
 
 #\* all in all a full stack project
 
-- [Git Link ](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
+- [Git Link ](https://github.com/yasin-hasan2/Hotel-Luxury?tab=readme-ov-file)
 - [Live Link](https://luxury-hotel-3b2ef.web.app/)
